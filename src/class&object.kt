@@ -47,13 +47,13 @@
 
 // Example of Constructor
 
-class Car(val brand: String, val color: String){
+class Car1(val brand: String, val color: String){
     fun showdetails(){
         println("Brand: $brand,Color: $color")
     }
 }
 
 fun main(){
-    val car=Car("Honda","white")
+    val car=Car1("Honda","white")
     car.showdetails()
 }
